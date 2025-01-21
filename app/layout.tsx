@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Abandoned Place Prediction using Neural Networks',
+  title: 'Abandoned Place Prediction',
   description: 'Created By ASH',
 }
 
