@@ -1,6 +1,6 @@
 # AbandonedBuildNet
 
-AbandonedBuildNet is an interactive React + Next.js application that visualizes how neural networks predict the likelihood of buildings being abandoned. Users can adjust building health indicators to see real-time predictions and gain insights into the factors affecting abandonment.
+AbandonedBuildNet is an interactive React + Next.js application that simulates the likelihood of buildings being abandoned. It allows users to adjust building health indicators and visualize how changes in these factors might influence the predicted abandonment status of a building. While the app mimics the process of a neural network, no actual machine learning model is used — instead, predefined rules and logic simulate the prediction process.
 
 ## Features
 
@@ -17,12 +17,12 @@ AbandonedBuildNet is an interactive React + Next.js application that visualizes 
 
 ## How It Works
 
-- Neural Network Playground: 
-  - Input indicators (e.g., Building Age, Maintenance Score) feed into a simulated neural network.
+- Neural Network Simulation: 
+  - Input indicators (e.g., Building Age, Maintenance Score) are processed using predefined rules, simulating a neural network's behavior.
   - Outputs are dynamically updated to show the probability of abandonment.
 - Control Panel: 
   - Sliders allow for real-time adjustments of key metrics.
-  - Immediate feedback visualizes the impact of changes.
+  - Immediate feedback visualizes the impact of changes on the predicted abandonment status.
 
 ## Getting Started
 
